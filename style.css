@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 221, 221);
+}
+
+.container{
+    background-color: rgb(245, 184, 18);
+    width: 355px;
+    height: 545px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px 3px rgb(151, 148, 148);
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.div-linha{
+    width: 348px;
+    height: 3px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+form{
+    height: 450px;
+}
+
+.container1{
+    margin-top: 45px;
+}
+
+.inputs{
+    margin: 25px 0px 20px 40px;
+}
+
+.inputs label{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#nome, #altura, #peso{
+    width: 180px;
+    height: 43px;
+    border-radius: 5px;
+    border: 0px solid white;
+    margin-left: 18px;
+    text-align: center;
+}
+
+#altura{
+    margin-left: 11px;
+}
+
+#peso{
+    margin-left: 33px;
+}
+
+.inputs input{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button{
+    width: 275px;
+    border-radius: 5px;
+    border: 0px white;
+    background-color: black;
+    color: rgb(245, 184, 18);
+    font-size: 17px;
+    padding: 7px;
+    cursor: pointer;
+    margin-left: 37px;
+}
+
+button:hover{
+    background-color: rgb(82, 82, 70);
+}
+
+#resposta{
+    background-color: black;
+    height: 140px;
+    width: 275px;
+    margin: 35px 0px 0px 38px;
+    border-radius: 5px;
+    color: rgb(245, 184, 18);
+    font-weight: bold;
+}
